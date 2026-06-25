@@ -7,7 +7,7 @@ spec:
   parentRefs:
     - name: incident-tracker-gateway
   rules:
-    # 1. Direct microservice routing (Bypassing Python API Gateway proxy)
+    
     - matches:
         - path:
             type: PathPrefix
